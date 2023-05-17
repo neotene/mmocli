@@ -2,7 +2,7 @@
 directory = libneo-last
 source_url = https://github.com/neotene/libneo/archive/refs/tags/last.tar.gz
 source_filename = libneo-last.tar.gz
-source_hash = c1aca4bc4ae4ebdf1d382f03088d43e3c4ea5b9e3b2d0dd6f8d447e567bd6472
+source_hash = dab71c43f0bae781c9ef0c9ac135a488d851593a376703351a6a57bdc8fa05f8
 
 [provide]
 neo = neo_dep
