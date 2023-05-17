@@ -1,0 +1,8 @@
+[wrap-file]
+directory = libneo-last
+source_url = https://github.com/neotene/libneo/archive/refs/tags/last.tar.gz
+source_filename = libneo-last.tar.gz
+source_hash = 2823a38bf8bf21be10a15b0ebd8c6994199ec8a8e3cd77859745a118575bcca2
+
+[provide]
+neo = neo_dep

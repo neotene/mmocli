@@ -1,0 +1,8 @@
+[wrap-file]
+directory = cpp-base64-last
+source_url = https://github.com/neotene/cpp-base64/archive/refs/tags/last.tar.gz
+source_filename = cpp-base64-last.tar.gz
+source_hash = fc8056a7920d854918edeeb966e78bd27aff821a603bbb2b5477d9131383bcdd
+
+[provide]
+cppbase64 = cppbase64_dep
