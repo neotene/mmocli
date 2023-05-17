@@ -1,0 +1,36 @@
+name: mmocli CI
+on:
+  push:
+    branches:
+      - alpha
+
+jobs:
+  windows:
+    strategy:
+      max-parallel: 1
+      matrix:
+        boost_version: [1.81.0]
+    uses: neotene/ci/.github/workflows/windows.yml@v0.1alpha
+    with:
+      boost_version: ${{ matrix.boost_version }}
+      boost: true
+
+  linux:
+    strategy:
+      max-parallel: 1
+      matrix:
+        boost_version: [1.81.0]
+    uses: neotene/ci/.github/workflows/linux.yml@v0.1alpha
+    with:
+      boost_version: ${{ matrix.boost_version }}
+      boost: true
+
+  macos:
+    strategy:
+      max-parallel: 1
+      matrix:
+        boost_version: [1.81.0]
+    uses: neotene/ci/.github/workflows/macos.yml@v0.1alpha
+    with:
+      boost_version: ${{ matrix.boost_version }}
+      boost: true

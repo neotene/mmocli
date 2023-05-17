@@ -1,0 +1,8 @@
+[wrap-file]
+directory = cpp-base64-meson
+source_url = https://github.com/neotene/cpp-base64/archive/refs/tags/meson.tar.gz
+source_filename = cpp-base64-meson.tar.gz
+source_hash = 203c782dadb9e0e76eeea1e0c059f8021543d0418eecf33f985de2d97a7a01ad
+
+[provide]
+cppbase64 = cppbase64_dep
