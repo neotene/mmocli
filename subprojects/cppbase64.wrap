@@ -1,0 +1,8 @@
+[wrap-file]
+directory = cpp-base64-0.1alpha
+source_url = https://github.com/neotene/cpp-base64/archive/refs/tags/v0.1alpha.tar.gz
+source_filename = cpp-base64-0.1alpha.tar.gz
+source_hash = 173a030e8978f5b42f13c87212bc53fee2776070ea0e4f4d0e5eda87d1fe2470
+
+[provide]
+cppbase64 = cppbase64_dep
